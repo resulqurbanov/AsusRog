@@ -25,19 +25,19 @@ function Products() {
               </div>
               <div class="d-none d-md-block d-lg-none">
                 <div class="slide-box">
-                  <img src="" alt="First slide" />
-                  <img src="" alt="First slide" />
-                  <img src="" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/3563183B-A875-4ACE-82E9-DDFD0406562B/w240/h175" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/7A8E0C01-7EBA-49FF-977E-352D6EAAA8BC/w240/h175" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/D3BB6D74-87CF-4FEF-ABE6-4E47535C2F6C/w240/h175" alt="First slide" />
                 </div>
               </div>
               <div class="d-none d-sm-block d-md-none">
                 <div class="slide-box">
-                  <img src="" alt="First slide" />
-                  <img src="" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/D8D19FB9-2485-478F-9E58-4344265E0E69/w240/h175" alt="First slide" />
+                  <img src="https://dlcdnwebimgs.asus.com/gain/868C3307-DD02-4624-8BA7-31B62EE4A38F/w240/h175" alt="First slide" />
                 </div>
               </div>
               <div class="d-block d-sm-none">
-                <img class="d-block w-100" src="" alt="First slide" />
+                <img class="d-block w-100" src="https://dlcdnwebimgs.asus.com/gain/F919198E-4F2B-4A8A-969A-E6E4757674AC/w240/h175" alt="First slide" />
               </div>
             </div>
             <div class="carousel-item">

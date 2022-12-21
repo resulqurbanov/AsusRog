@@ -5,16 +5,18 @@ import Products from '../../components/HomeComponents/Products'
 import Stories from '../../components/HomeComponents/Stories'
 import Action from '../../components/HomeComponents/Action'
 import Universe from '../../components/HomeComponents/Universe'
+import Footer from '../../components/Footer'
 
 function Home() {
   return (
     <>
-<Navbar></Navbar>
+<Navbar/>
 <IlkSlider/>
 <Products/>
 <Stories/>
 <Action/>
 <Universe/>
+<Footer/>
     </>
   )
 }

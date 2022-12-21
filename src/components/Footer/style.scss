@@ -1,0 +1,173 @@
+footer {
+    background-image: url("https://dlcdnwebimgs.asus.com/gain/07B097A3-E9C2-4AFF-9196-3ADE8F5BCEA1");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .kecid {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        h3{
+            display: none;
+        }
+
+        .ulli {
+            ul {
+                display: flex;
+                flex-direction: row;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    margin: 7px;
+
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+
+        .k_icon {
+            display: flex;
+            flex-direction: row;
+
+            i {
+                color: white;
+                margin: 7px;
+                font-size: 20px;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+    .xett{
+        border: 5px;
+        width: 90%;
+        height: 10px;
+        border-color: aliceblue;
+    }
+    .son_hisse{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        a{
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            margin-right: 10px;
+            &:hover{
+                color: red;
+            }
+        }
+        .son_noqte{
+            display: flex;
+            flex-direction: row;
+            p{
+                color: rgb(103, 103, 103);
+            }
+            
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+footer {
+   border-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .kecid {
+        width: 90%;
+        display: flex;
+      
+        margin-top: 50px;
+        flex-direction: column;
+        margin-bottom: 10px;
+          h3{
+            display: block;
+            margin: 10px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .ulli {
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    margin: 7px;
+
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+
+        .k_icon {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                color: white;
+                margin: 7px;
+                font-size: 20px;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+    .xett{
+        border: 5px;
+        width: 90%;
+        height: 10px;
+        border-color: aliceblue;
+    }
+    .son_hisse{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        a{
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+            margin-right: 10px;
+            &:hover{
+                color: red;
+            }
+        }
+        .son_noqte{
+            display: flex;
+            flex-direction: column;
+            p{
+                color: rgb(103, 103, 103);
+            }
+            
+        }
+    }
+}
+}
