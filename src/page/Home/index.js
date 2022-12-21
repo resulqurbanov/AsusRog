@@ -4,6 +4,8 @@ import IlkSlider from '../../components/HomeComponents/ilkslider'
 import Products from '../../components/HomeComponents/Products'
 import Stories from '../../components/HomeComponents/Stories'
 import Action from '../../components/HomeComponents/Action'
+import Universe from '../../components/HomeComponents/Universe'
+
 function Home() {
   return (
     <>
@@ -12,6 +14,7 @@ function Home() {
 <Products/>
 <Stories/>
 <Action/>
+<Universe/>
     </>
   )
 }
